@@ -1,0 +1,73 @@
+header {
+    display: flex;
+}
+.header_box {
+    display: flex;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+          width: 100%;
+}
+.header_logo_box {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.section_localisation_box {
+    display: flex;
+    background-color: #d8d8d8;
+}
+.section_localisation {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.section_localisation_logo_box {
+    margin: 3rem;
+}
+.fa-map-marker-alt i {
+    font-size: 3rem;
+}
+.localisation_result {
+    font-size: 2rem;
+    margin: 3rem;
+}
+.section_introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6e6e6;
+}
+
+.introduction_titre {
+    font-size: 3rem;
+}
+.introduction_sous_titre {
+    font-size: 2rem;
+}
+.introduction_boutton {
+    border-radius: 2rem;
+    border: none;
+    background-color: #ff79da;
+    height: 4rem;
+    width:15rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.fonctionnement_annonce_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fonctionnement_annonce {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.numero_annonce {
+    
+}
+
+
